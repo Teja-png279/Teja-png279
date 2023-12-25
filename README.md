@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Teja Varshith
-- 👀 I’m interested in solving real world problems and making appps!
+- 👀 I’m interested in solving real world problems and making apps!
 - 🌱 I’m currently learning C.
 
 <!---
