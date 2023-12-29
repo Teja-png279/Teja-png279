@@ -149,13 +149,15 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
 
             image[i][j].rgbtBlue = round(sqrt((float) temp3 * (float) temp3 + (float) temp3gy * (float) temp3gy));
 
-            if (image[i][j].rgbtBlue < 255)
+            if (image[i][j].rgbtBlue > 255)
             {
                 image[i][j].rgbtBlue = 255;
             }
         }
     }
 
+
+//check!!
     /* for (int i = 0; i < height; i++)
       {
           for (int j = 0; j < width; j++)
